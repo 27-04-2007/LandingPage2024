@@ -9,7 +9,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   line-height: 1.6;
-  background: url(/Tugas-LandingPage/Lab.jpeg) no-repeat center center fixed;
+  background: url(assets/Lab.jpeg) no-repeat center center fixed;
   background-size: cover;
   /* Optional: Background color for fallback */
   background-color: #f4f4f4;
