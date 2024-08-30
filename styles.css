@@ -1,248 +1,251 @@
 /* Reset dasar */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    background: url(/Tugas-LandingPage/Lab.jpeg) no-repeat center center fixed;
-    background-size: cover;
-    /* Optional: Background color for fallback */
-    background-color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: url(Lab.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  /* Optional: Background color for fallback */
+  background-color: #f4f4f4;
 }
 
 /* Navigasi */
 header {
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    padding: 20px 0;
-    border-bottom: 2px solid #ddd   ;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 nav h1 {
-    font-size: 2em;
-    color: #007bff;
-    font-weight: 700;
+  font-size: 2em;
+  color: #007bff;
+  font-weight: 700;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 nav ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-    transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #007bff;
-    transform: scale(1.05);
+  color: #007bff;
+  transform: scale(1.05);
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 120px 20px;
-    position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://via.placeholder.com/") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
 }
 
 .hero-content {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-content h2 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-    animation: fadeIn 2s ease-out;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 2s ease-out;
 }
 
 .hero-content p {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    animation: fadeIn 2.5s ease-out;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  animation: fadeIn 2.5s ease-out;
 }
 
 .btn {
-    display: inline-block;
-    padding: 15px 30px;
-    color: white;
-    background: linear-gradient(90deg, #007bff, #0056b3);
-    text-decoration: none;
-    border-radius: 30px;
-    font-size: 1.1em;
-    font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-    background: linear-gradient(90deg, #0056b3, #003d80);
-    transform: translateY(-2px);
+  background: linear-gradient(90deg, #0056b3, #003d80);
+  transform: translateY(-2px);
 }
 
 /* Animasi FadeIn */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* About Section */
 .about {
-    padding: 60px 20px;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    text-align: center;
-    border-bottom: 1px solid #ddd;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
 .about h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #007bff;
-    position: relative;
-    padding-bottom: 10px;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff;
+  position: relative;
+  padding-bottom: 10px;
 }
 
 .about h2::after {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 4px;
-    background: #007bff;
-    margin: 10px auto 0;
-    border-radius: 2px;
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #007bff;
+  margin: 10px auto 0;
+  border-radius: 2px;
 }
 
 .about p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.1em;
-    line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.8;
 }
 
 /* Programs Section */
 
 .programs .container {
-    display: flex;
+  display: flex;
 }
 
 .programs {
-    padding: 60px 20px;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    text-align: center;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  text-align: center;
 }
 
 .programs h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #007bff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff;
 }
 
 .program {
-    background: #ffffff;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    max-width: 350px;
-    text-align: left;
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  max-width: 350px;
+  text-align: left;
 }
 
 .program h3 {
-    margin-bottom: 10px;
-    color: #007bff;
+  margin-bottom: 10px;
+  color: #007bff;
 }
 
 .program p {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .program:hover {
-    background: #f1f1f1;
-    transform: translateY(-5px);
+  background: #f1f1f1;
+  transform: translateY(-5px);
 }
 
 /* Contact Section */
 .contact {
-    padding: 60px 20px;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    text-align: center;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  text-align: center;
 }
 
 .contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #007bff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff;
 }
 
 form {
-    max-width: 600px;
-    margin: 0 auto;
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 form label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: 600;
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1em;
-    transition: border-color 0.3s ease;
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
 }
 
-form input:focus, form textarea:focus {
-    border-color: #007bff;
-    outline: none;
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 /* Footer */
 footer {
-    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 0.9em;
-    position: relative;
-    border-top: 1px solid #444;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  border-top: 1px solid #444;
 }
